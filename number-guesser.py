@@ -7,7 +7,7 @@ print("You Will Get 5 Changes to Guess the Correct Numbner\nDon't Worry I will g
 low = 1
 high = 50
 attempt = 0
-correct_answer = random.randrange(1,10)
+correct_answer = random.randrange(low,high)
 
 while True:
     
